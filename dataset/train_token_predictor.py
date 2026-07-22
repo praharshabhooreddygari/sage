@@ -26,7 +26,7 @@ from sklearn.preprocessing import OneHotEncoder
 HERE = Path(__file__).parent
 DATA_PATH = HERE / "merged" / "model_a_token_predictor.csv"
 MODEL_DIR = HERE.parent / "models"
-RESULTS_PATH = HERE.parent / "results" / "token_predictor_rf.json"
+RESULTS_PATH = HERE.parent / "results" / "rf" / "token_predictor.json"
 
 NUMERIC_FEATURES = [
     "char_count", "word_count", "line_count", "sentence_count",
