@@ -1,0 +1,9 @@
+[project]
+name = "token-cost-gen"
+version = "0.1.0"
+description = "Simple token cost calculator for Claude prompts"
+requires-python = ">=3.9"
+dependencies = [
+    "anthropic>=0.21.0",
+    "tiktoken>=0.13.0",
+]
