@@ -24,7 +24,7 @@ from sklearn.model_selection import train_test_split
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DATA_PATH = REPO_ROOT / "dataset" / "merged" / "model_b_quality_predictor.csv"
 MODEL_DIR = REPO_ROOT / "models" / "catboost"
-RESULTS_PATH = REPO_ROOT / "results" / "quality_predictor_catboost.json"
+RESULTS_PATH = REPO_ROOT / "results" / "catboost" / "quality_predictor.json"
 
 NUMERIC_FEATURES = [
     "char_count", "word_count", "line_count", "sentence_count",
